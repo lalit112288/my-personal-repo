@@ -90,18 +90,19 @@ $
 	n
 
 # File marks:
-'0  11  0  ~/gitfile
-'1  8  51  ~/gitfile
-'2  5  0  ~/gitfile
-'3  1  0  ~/gitfile
-'4  51  46  ~/gitfile
-'5  4  7  ~/git.sh
-'6  5  9  ~/git.sh
-'7  3  7  ~/git.sh
-'8  7  0  ~/git.sh
-'9  1  0  ~/lates
+'0  1  14  ~/new_dir/10mydbops
+'1  11  0  ~/gitfile
+'2  8  51  ~/gitfile
+'3  5  0  ~/gitfile
+'4  1  0  ~/gitfile
+'5  51  46  ~/gitfile
+'6  4  7  ~/git.sh
+'7  5  9  ~/git.sh
+'8  3  7  ~/git.sh
+'9  7  0  ~/git.sh
 
 # Jumplist (newest first):
+-'  1  14  ~/new_dir/10mydbops
 -'  11  0  ~/gitfile
 -'  10  38  ~/gitfile
 -'  8  30  ~/gitfile
@@ -201,6 +202,12 @@ $
 -'  277  0  /etc/openvpn/server.conf
 
 # History of marks within files (newest to oldest):
+
+> ~/new_dir/10mydbops
+	"	1	14
+	^	1	15
+	.	1	14
+	+	1	14
 
 > ~/gitfile
 	"	11	0
@@ -352,10 +359,3 @@ $
 	^	1	19
 	.	1	18
 	+	1	18
-
-> ~/aquaorange.ovpn
-	"	16	13
-	^	16	14
-	.	16	13
-	+	18	0
-	+	16	13
