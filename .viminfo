@@ -88,21 +88,22 @@ $
 	n
 
 # File marks:
-'0  4  9  ~/git.sh
-'1  3  7  ~/git.sh
-'2  6  0  ~/git.sh
-'3  1  0  ~/lates
-'4  3  0  ~/new/latestfile
-'5  12  0  ~/new/lalit
-'6  3  0  ~/new_file
-'7  6  4  ~/lalitt
-'8  1  0  ~/lalit
-'9  7  0  /etc/hosts
+'0  4  7  ~/git.sh
+'1  5  9  ~/git.sh
+'2  3  7  ~/git.sh
+'3  7  0  ~/git.sh
+'4  1  0  ~/lates
+'5  3  0  ~/new/latestfile
+'6  12  0  ~/new/lalit
+'7  3  0  ~/new_file
+'8  6  4  ~/lalitt
+'9  1  0  ~/lalit
 
 # Jumplist (newest first):
--'  4  9  ~/git.sh
+-'  4  7  ~/git.sh
+-'  5  0  ~/git.sh
 -'  3  0  ~/git.sh
--'  6  0  ~/git.sh
+-'  7  0  ~/git.sh
 -'  1  0  ~/git.sh
 -'  1  0  ~/lates
 -'  2  0  ~/lates
@@ -197,17 +198,17 @@ $
 -'  2  14  /etc/yum.repos.d/test.repo
 -'  3  0  /etc/yum.repos.d/test.repo
 -'  16  12  /etc/yum.repos.d/CentOS-Base.repo
--'  1  0  /etc/yum.repos.d/CentOS-Base.repo
 
 # History of marks within files (newest to oldest):
 
 > ~/git.sh
-	"	4	9
-	^	4	10
-	.	4	9
-	+	5	32
-	+	6	24
-	+	4	9
+	"	4	7
+	^	4	8
+	.	4	7
+	+	6	32
+	+	7	24
+	+	5	9
+	+	4	7
 
 > ~/lates
 	"	1	0
