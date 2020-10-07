@@ -6,9 +6,9 @@
 
 
 # hlsearch on (H) or off (h):
-~H
+~h
 # Last Search Pattern:
-~MSle0~/tls
+~Msle0~/\<read\>
 
 # Last Substitute String:
 $
@@ -16,11 +16,13 @@ $
 # Command Line History (newest to oldest):
 :x!
 :q!
+:noh
 :q
 :X!
 :no h
 
 # Search String History (newest to oldest):
+? \<read\>
 ?/tls
 ?/GSSAPIAuthentication
 ?/GSSAPIDelegateCredentials
@@ -88,18 +90,26 @@ $
 	n
 
 # File marks:
-'0  4  7  ~/git.sh
-'1  5  9  ~/git.sh
-'2  3  7  ~/git.sh
-'3  7  0  ~/git.sh
-'4  1  0  ~/lates
-'5  3  0  ~/new/latestfile
-'6  12  0  ~/new/lalit
-'7  3  0  ~/new_file
-'8  6  4  ~/lalitt
-'9  1  0  ~/lalit
+'0  11  0  ~/gitfile
+'1  8  51  ~/gitfile
+'2  5  0  ~/gitfile
+'3  1  0  ~/gitfile
+'4  51  46  ~/gitfile
+'5  4  7  ~/git.sh
+'6  5  9  ~/git.sh
+'7  3  7  ~/git.sh
+'8  7  0  ~/git.sh
+'9  1  0  ~/lates
 
 # Jumplist (newest first):
+-'  11  0  ~/gitfile
+-'  10  38  ~/gitfile
+-'  8  30  ~/gitfile
+-'  5  0  ~/gitfile
+-'  1  0  ~/gitfile
+-'  28  0  ~/gitfile
+-'  17  0  ~/gitfile
+-'  51  0  ~/gitfile
 -'  4  7  ~/git.sh
 -'  5  0  ~/git.sh
 -'  3  0  ~/git.sh
@@ -189,17 +199,28 @@ $
 -'  1  0  /etc/openvpn/easy-rsa/vars
 -'  102  0  /etc/openvpn/server.conf
 -'  277  0  /etc/openvpn/server.conf
--'  202  28  /etc/openvpn/server.conf
--'  193  0  /etc/openvpn/server.conf
--'  1  0  /etc/openvpn/server.conf
--'  1  0  /etc/default/slack
--'  1  0  /etc/hosts
--'  1  0  /etc/selinux/config
--'  2  14  /etc/yum.repos.d/test.repo
--'  3  0  /etc/yum.repos.d/test.repo
--'  16  12  /etc/yum.repos.d/CentOS-Base.repo
 
 # History of marks within files (newest to oldest):
+
+> ~/gitfile
+	"	11	0
+	^	10	39
+	.	10	0
+	+	52	0
+	+	28	15
+	+	31	8
+	+	42	0
+	+	45	27
+	+	49	8
+	+	51	47
+	+	28	0
+	+	12	0
+	+	3	4
+	+	4	0
+	+	8	51
+	+	11	24
+	+	9	60
+	+	10	0
 
 > ~/git.sh
 	"	4	7
@@ -338,6 +359,3 @@ $
 	.	16	13
 	+	18	0
 	+	16	13
-
-> .ssh/config
-	"	1	0
