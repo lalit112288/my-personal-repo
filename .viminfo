@@ -88,18 +88,20 @@ $
 	n
 
 # File marks:
-'0  6  4  ~/lalitt
-'1  1  0  ~/lalit
-'2  7  0  /etc/hosts
-'3  1  0  ~/.ssh/id_rsa.pub
-'4  22  18  /etc/lsyncd.conf
-'5  1  18  /opt/test/lalit1
-'6  1  4  /etc/lsyncd.conf
-'7  1  23  /etc/lsyncd.conf
-'8  3  0  ~/.ssh/authorized_keys
-'9  1  34  /etc/lsyncd.conf
+'0  3  0  ~/new_file
+'1  6  4  ~/lalitt
+'2  1  0  ~/lalit
+'3  7  0  /etc/hosts
+'4  1  0  ~/.ssh/id_rsa.pub
+'5  22  18  /etc/lsyncd.conf
+'6  1  18  /opt/test/lalit1
+'7  1  4  /etc/lsyncd.conf
+'8  1  23  /etc/lsyncd.conf
+'9  3  0  ~/.ssh/authorized_keys
 
 # Jumplist (newest first):
+-'  3  0  ~/new_file
+-'  1  0  ~/new_file
 -'  6  4  ~/lalitt
 -'  1  0  ~/lalitt
 -'  1  0  ~/lalit
@@ -196,11 +198,14 @@ $
 -'  1  0  /etc/sysconfig/network-scripts/ifcfg-enp5s0
 -'  13  8  ~/.bashrc
 -'  1  0  ~/.bashrc
--'  13  8  ~/.bashrc
--'  1  0  ~/.bashrc
--'  1  0  /etc/sysconfig/network-scripts/ifcfg-enp5s0
 
 # History of marks within files (newest to oldest):
+
+> ~/new_file
+	"	3	0
+	^	3	13
+	.	3	12
+	+	3	12
 
 > ~/lalitt
 	"	6	4
@@ -327,9 +332,3 @@ $
 	^	3	40
 	.	3	39
 	+	3	39
-
-> /home/ladmin/Documents/visudo
-	"	1	86
-	^	1	87
-	.	1	0
-	+	1	0
