@@ -88,19 +88,20 @@ $
 	n
 
 # File marks:
-'0  7  0  ~/git.sh
-'1  1  0  ~/lates
-'2  3  0  ~/new/latestfile
-'3  12  0  ~/new/lalit
-'4  3  0  ~/new_file
-'5  6  4  ~/lalitt
-'6  1  0  ~/lalit
-'7  7  0  /etc/hosts
-'8  1  0  ~/.ssh/id_rsa.pub
-'9  22  18  /etc/lsyncd.conf
+'0  3  7  ~/git.sh
+'1  6  0  ~/git.sh
+'2  1  0  ~/lates
+'3  3  0  ~/new/latestfile
+'4  12  0  ~/new/lalit
+'5  3  0  ~/new_file
+'6  6  4  ~/lalitt
+'7  1  0  ~/lalit
+'8  7  0  /etc/hosts
+'9  1  0  ~/.ssh/id_rsa.pub
 
 # Jumplist (newest first):
--'  7  0  ~/git.sh
+-'  3  7  ~/git.sh
+-'  6  0  ~/git.sh
 -'  1  0  ~/git.sh
 -'  1  0  ~/lates
 -'  2  0  ~/lates
@@ -197,16 +198,16 @@ $
 -'  16  12  /etc/yum.repos.d/CentOS-Base.repo
 -'  1  0  /etc/yum.repos.d/CentOS-Base.repo
 -'  5  0  /etc/yum.repos.d/test.repo
--'  1  0  /etc/yum.repos.d/test.repo
--'  1  0  /etc/sysconfig/network-scripts/ifcfg-enp5s0
 
 # History of marks within files (newest to oldest):
 
 > ~/git.sh
-	"	7	0
-	^	7	0
-	.	6	32
-	+	6	32
+	"	3	7
+	^	3	8
+	.	4	0
+	+	5	32
+	+	6	24
+	+	4	0
 
 > ~/lates
 	"	1	0
